@@ -1,11 +1,9 @@
-<?php include (/web/'header.php')?>;
+<?php include('web/header.php');?>
 
-
-
+   <!-- Banner Section Start -->
    <div class="about-sec sec-padding">
       <div class="container">
          <div class="row">
-
             <div class="col-xl-7">
                <div class="about-media-2 position-relative mb-4 mb-xl-0">
                   <img class="ab-media-1 img-fluid" src="images/about-n1.png" alt="About">
@@ -30,8 +28,8 @@
             </div>
          </div>
       </div>
-   </div><!-- Button trigger modal -->
-
+   </div>
+   <!-- Banner Section End -->
 
    <!-- Brand Section Start -->
    <div class="brand-sec bg-primary">
@@ -780,6 +778,8 @@
    </section>
    <!-- Blog Section End -->
 
-
-   <!-- Footer Section Start -->
   
+    <!-- Footer Section Start -->
+   <?php include ('web/footer.php')?>
+   <?php include ('web/admission-open.php')?>
+   

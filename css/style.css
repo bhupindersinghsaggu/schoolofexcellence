@@ -594,8 +594,16 @@ textarea {
     margin: 0;
     font-family: inherit;
     font-size: inherit;
-    line-height: inherit
+    line-height: inherit;
+    border: coral;
+    border-radius: 4px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: coral;
 }
+
 
 button,
 select {
@@ -6637,7 +6645,8 @@ fieldset:disabled .btn {
     padding: var(--bs-modal-header-padding);
     border-bottom: var(--bs-modal-header-border-width) solid var(--bs-modal-header-border-color);
     border-top-left-radius: var(--bs-modal-inner-border-radius);
-    border-top-right-radius: var(--bs-modal-inner-border-radius)
+    border-top-right-radius: var(--bs-modal-inner-border-radius);
+    justify-content: space-between;
 }
 
 .modal-header .btn-close {
