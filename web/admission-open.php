@@ -3,7 +3,7 @@
   <div class="modal-dialog" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Online Inquiry</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
@@ -17,15 +17,15 @@
 								<i class="feather-icon icon-user"></i>
 								<input class="form-control" name="name" type="text" placeholder="Name" required="">
 							<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></div>
-							<div class="col-lg-12 form-group">
+							<!-- <div class="col-lg-12 form-group">
 								<i class="feather-icon icon-mail"></i>
 								<input class="form-control" name="email" type="email" placeholder="Email Address" required="">
-							</div>
-							<div class="col-lg-6 form-group">
+							</div> -->
+							<!-- <div class="col-lg-6 form-group">
 								<i class="feather-icon icon-pocket"></i>
 								<input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
-							</div>
-							<div class="col-lg-6 form-group">
+							</div> -->
+							<div class="col-lg-12 form-group">
 								<i class="feather-icon icon-phone-call"></i>
 								<input class="form-control" type="text" name="phone" placeholder="Phone Number" required="">
 							</div>
@@ -33,7 +33,7 @@
 								<textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
 							</div>
 							<div class="col-lg-12 text-center">
-								<button type="submit" class="btn btn-primary rounded-5 mt-4">Submit Now</button>
+								<button type="submit" class="btn btn-primary rounded-5 mt-4">Submit</button>
 							</div>
 						</form>
 						<!-- Contact Form Start-->

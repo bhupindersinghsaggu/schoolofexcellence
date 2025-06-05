@@ -19,6 +19,8 @@
     <link rel="stylesheet" href="css/swiper-bundle.min.css">
     <!-- Style css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- Custom css -->
+    <link rel="stylesheet" href="css/custom.css">
 
     <!--[if lt IE 9]>
     <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
