@@ -88,3 +88,22 @@
         width: 23.75rem;
     }
 }
+
+.mb-20{
+    margin-top: 20px;
+}
+
+.list-black{
+    color: #000;
+    list-style: none;
+    line-height: 36px;
+    margin-left: -22px;
+    font-size: 16px;
+}
+
+
+.pur-color{
+color:#6045ff;
+
+
+}

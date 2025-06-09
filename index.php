@@ -88,7 +88,7 @@
       <div class="d-flex justify-content-between align-items-top">
          <div class="sec-intro">
             <span class="badge-lg bg-primary rounded-5">Let's A Tour</span>
-            <h2 class="sec-title mb-4">Facilities &  <span class="color">Campus Life</span></h2>
+            <h2 class="sec-title mb-4">Facilities & <span class="color">Campus Life</span></h2>
          </div>
          <div class="custom-nav d-flex gap-3 align-items-center">
             <!-- navigation -->
@@ -105,14 +105,14 @@
                   <a href="#"><img class="card-img-top" src="images/labs/sports.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
+                  <div class="course-meta d-flex justify-content-between align-items-center mb-2 mb-20">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
                         <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
                   <h2 class="sec-title mb-4 labs-heading">
-                     Indoor-Outdoor Games
+                     Indoor-Outdoor <span class="color"> Games</span>
                      <p></p>
                   </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
@@ -129,14 +129,14 @@
                   <a href="#"><img class="card-img-top" src="images/labs/smart-class.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
+                  <div class="course-meta d-flex justify-content-between align-items-center mb-2 mb-20">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
                         <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
                   <h2 class="sec-title mb-4 labs-heading">
-                     State-of-the-Art Classrooms
+                     State-of-the-Art <span class="color">Classrooms</span>
                      <p></p>
                   </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
@@ -153,14 +153,14 @@
                   <a href="#"><img class="card-img-top" src="images/labs/computer-lab.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
+                  <div class="course-meta d-flex justify-content-between align-items-center mb-2 mb-20">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
                         <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
                   <h2 class="sec-title mb-4 labs-heading">
-                     Computer Labs
+                     Computer <span class="color">Labs</span>
                      <p></p>
                      </h3>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
@@ -177,18 +177,18 @@
                   <a href="#"><img class="card-img-top" src="images/labs/composite-lab.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
+                  <div class="course-meta d-flex justify-content-between align-items-center mb-2 mb-20">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
                         <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
                   <h2 class="sec-title mb-4 labs-heading">
-                     Composite Lab
+                     Composite <span class="color">Lab</span>
                      <p></p>
                   </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                      <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
+                     <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
                   </div>
                </div>
             </div>
@@ -201,14 +201,14 @@
                   <a href="#"><img class="card-img-top" src="images/labs/library.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
+                  <div class="course-meta d-flex justify-content-between align-items-center mb-2 mb-20">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
                         <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
                   <h2 class="sec-title mb-4 labs-heading">
-                     Library
+                     <span class="color"> Library</span>
                      <p></p>
                   </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
@@ -225,64 +225,18 @@
                   <a href="#"><img class="card-img-top" src="images/labs/lab1.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
+                  <div class="course-meta d-flex justify-content-between align-items-center mb-2 mb-20">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
                         <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
                   <h2 class="sec-title mb-4 labs-heading">
-                     Learner's hub
+                     Learner's <span class="color">hub</span>
                      <p></p>
                   </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
                      <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
-                  </div>
-               </div>
-            </div>
-            <!-- Course Entry End -->
-         </div>
-         <!-- Slide Item End -->
-         <div class="swiper-slide">
-            <div class="course-entry-3 card rounded-2 bg-white border">
-               <div class="card-media position-relative">
-                  <a href="single-course.html"><img class="card-img-top" src="images/course6.jpg" alt="Course" /></a>
-               </div>
-               <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
-                     <div class="d-flex align-items-center">
-                        <img src="images/icons/star.png" alt="" />
-                     </div>
-                  </div>
-                  <h3 class="sub-title mb-0">
-                     React JS Zero to Mastery Front End Essentails
-                     <p></p>
-                  </h3>
-                  <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                     <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
-                  </div>
-               </div>
-            </div>
-            <!-- Course Entry End -->
-         </div>
-         <!-- Slide Item End -->
-         <div class="swiper-slide">
-            <div class="course-entry-3 card rounded-2 bg-white border">
-               <div class="card-media position-relative">
-                  <a href="single-course.html"><img class="card-img-top" src="images/course6.jpg" alt="Course" /></a>
-               </div>
-               <div class="card-body">
-                  <div class="course-meta d-flex justify-content-between align-items-center mb-2">
-                     <div class="d-flex align-items-center">
-                        <img src="images/icons/star.png" alt="" />
-                     </div>
-                  </div>
-                  <h3 class="sub-title mb-0">
-                     React JS Zero to Mastery Front End Essentails
-                     <p></p>
-                  </h3>
-                  <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                     <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
                   </div>
                </div>
             </div>
@@ -300,85 +254,67 @@
       <div class="text-center sec-intro">
          <h2 class="sec-title">Why Choose <span class="color">School of Excellence</span></h2>
       </div>
-      <div class="row g-4">
-         <!-- Category Entry End -->
-         <div class="col-lg-4 col-md-6">
-            <div class="category-entry active d-flex p-3 p-xl-4 align-items-center white-color">
-               <span class="icon-lg rounded-circle">
-                  <i class="fa-solid fa-school ser-icon"></i>
-               </span>
-               <div class="cat-info">
-                  <h4 class="display-5">Excellence in Education</h4>
-                  <small>A commitment to academic success and personal growth</small>
+      <div class="row justify-content-center g-4">
+         <div class="col-md-6 col-lg-4">
+            <div class="card pricing-card bg-shade border rounded-4">
+               <div class="card-head">
+                  <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                     <h5>Personalized & <span class="pur-color">Hybrid Learning Approach</span></h5>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
+                  </div>
+                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
+                  <ul class="list-black">
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Blended learning for flexible, engaging education</li>
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Personalized learning tailored to each student.
+                     </li>
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Technology-driven, interactive learning.
+                     </li>
+                  </ul>
                </div>
+               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Your Seat</a>
             </div>
-         </div>
-         <!-- Category Entry End -->
-         <div class="col-lg-4 col-md-6">
-            <div class="category-entry active d-flex p-3 p-xl-4 align-items-center white-color">
-               <span class="icon-lg rounded-circle">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="40" height="40">
-                     <path d="M258.6 0c-1.7 0-3.4 .1-5.1 .5C168 17 115.6 102.3 130.5 189.3c2.9 17 8.4 32.9 15.9 47.4L32 224l-2.6 0C13.2 224 0 237.2 0 253.4c0 1.7 .1 3.4 .5 5.1C17 344 102.3 396.4 189.3 381.5c17-2.9 32.9-8.4 47.4-15.9L224 480l0 2.6c0 16.2 13.2 29.4 29.4 29.4c1.7 0 3.4-.1 5.1-.5C344 495 396.4 409.7 381.5 322.7c-2.9-17-8.4-32.9-15.9-47.4L480 288l2.6 0c16.2 0 29.4-13.2 29.4-29.4c0-1.7-.1-3.4-.5-5.1C495 168 409.7 115.6 322.7 130.5c-17 2.9-32.9 8.4-47.4 15.9L288 32l0-2.6C288 13.2 274.8 0 258.6 0zM256 224a32 32 0 1 1 0 64 32 32 0 1 1 0-64z" />
-                  </svg>
-               </span>
-               <div class="cat-info">
-                  <h4 class="display-5">State-of-the-Art Facilities</h4>
-                  <small>Modern classrooms, labs, libraries, and sports complexes.</small>
+         </div> <!-- Pricing Card End -->
+         <div class="col-md-6 col-lg-4">
+            <div class="card pricing-card bg-shade border rounded-4">
+               <div class="card-head">
+                  <p> <img class="img-fluid" src="images/labs/2.jpg" alt="Instructor"></p>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                     <h5>Experiential &  <span class="pur-color">Inquiry-Based Learning</span></h5>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
+                  </div>
+                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
+                  <ul class="list-black">
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Hands-on projects and real-world problem-solving to develop critical thinking</li>
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Personalized learning tailored to each student.
+                     </li>
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Technology-driven, interactive learning.
+                     </li>
+                  </ul>
                </div>
+               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Your Seat</a>
             </div>
-         </div>
-         <!-- Category Entry End -->
-         <div class="col-lg-4 col-md-6">
-            <div class="category-entry active d-flex p-3 p-xl-4 align-items-center white-color">
-               <span class="icon-lg rounded-circle">
-                  <i class="fa-solid fa-volleyball ser-icon"></i>
-               </span>
-               <div class="cat-info">
-                  <h4 class="display-5">Fostering Critical Thinking</h4>
-                  <small>Empowering students to analyze, question, and solve problems</small>
+         </div> <!-- Pricing Card End -->
+         <div class="col-md-6 col-lg-4">
+            <div class="card pricing-card bg-shade border rounded-4">
+               <div class="card-head">
+                  <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                     <h5>Personalized & <span class="pur-color">Hybrid Learning Approach</span></h5>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
+                  </div>
+                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
+                  <ul class="list-black">
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Blended learning for flexible, engaging education</li>
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Personalized learning tailored to each student.
+                     </li>
+                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Technology-driven, interactive learning.
+                     </li>
+                  </ul>
                </div>
+               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Your Seat</a>
             </div>
-         </div>
-         <!-- Category Entry End -->
-         <div class="col-lg-4 col-md-6">
-            <div class="category-entry active d-flex p-3 p-xl-4 align-items-center white-color">
-               <span class="icon-lg rounded-circle">
-                  <i class="fa-solid fa-graduation-cap ser-icon"></i>
-               </span>
-               <div class="cat-info">
-                  <h4 class="display-5">Dedicated Faculty</h4>
-                  <small>Experienced educators passionate about teaching & mentoring</small>
-               </div>
-            </div>
-         </div>
-
-         <!-- Category Entry End -->
-         <div class="col-lg-4 col-md-6">
-            <div class="category-entry active d-flex p-3 p-xl-4 align-items-center white-color">
-               <span class="icon-lg rounded-circle">
-                  <i class="fa-solid fa-volleyball ser-icon"></i>
-               </span>
-               <div class="cat-info">
-                  <h4 class="display-5">Indoor-Outdoor Sports Facilities</h4>
-                  <small>We foster fitness and teamwork through versatile sports facilities.
-                  </small>
-               </div>
-            </div>
-         </div>
-
-         <!-- Category Entry End -->
-         <div class="col-lg-4 col-md-6">
-            <div class="category-entry active d-flex p-3 p-xl-4 align-items-center white-color">
-               <span class="icon-lg rounded-circle">
-                  <i class="fa-solid fa-child-reaching ser-icon"></i>
-               </span>
-               <div class="cat-info">
-                  <h4 class="display-5">Nurturing Young Minds</h4>
-                  <small>Encouraging curiosity, creativity, and innovation.
-                  </small>
-               </div>
-            </div>
-         </div>
+         </div> <!-- Pricing Card End -->
       </div>
    </div>
 </section>
@@ -398,20 +334,12 @@
          <div class="col-md-6 col-lg-4">
             <div class="card pricing-card bg-shade border rounded-4">
                <div class="card-head">
+                  <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
                   <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h2 class="display-2"><span>$</span>19 <sub>/month</sub></h2>
-                     <span class="badge-lg bg-secondary rounded-5">Basic</span>
+                     <h5><span>Personalized & Hybrid Learning Approach</span></h5>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
                   </div>
-                  <p><img class="me-2" src="images/icons/wallet-2.png" alt="wallet">Billed annually or yearly</p>
-               </div>
-               <div class="card-body bg-white border rounded-2">
-                  <ul>
-                     <li>Downloadable Resources</li>
-                     <li>Course Certification</li>
-                     <li>Instructor Interaction</li>
-                     <li>Exclusive Content Update</li>
-                     <li>Access to Premium Courses</li>
-                  </ul>
+                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
                </div>
                <a href="#" class="btn btn-primary">Choose your Plan</a>
             </div>
