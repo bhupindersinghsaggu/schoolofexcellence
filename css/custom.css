@@ -1,5 +1,83 @@
-.hero-heading{
+.hero-heading {
     font-size: 54px;
     margin-bottom: 2.5rem;
     line-height: 65px;
+}
+
+.star-icon {
+
+    margin-right: 5px;
+    margin-left: 5px;
+    color: rgba(var(--bs-secondary-rgb), var(--bs-bg-opacity)) !important;
+}
+
+.marquee {
+    overflow: hidden;
+    display: flex;
+    margin-bottom: 50px;
+    color: #fff;
+}
+
+.adm-text {
+    color: #fff;
+}
+
+.school-theme-color1 {
+    background: #F5F5DC;
+}
+
+.white-color{
+    background: #fff;
+}
+
+/* .about-sec2 .sec-title {
+    font-size: 39px;
+} */
+
+.sec-title {
+    line-height: 1.2;
+    margin-bottom: 2.5rem;
+    font-weight: 700;
+    position: relative;
+}
+
+.img-border {
+    border: 8px rgba(135, 194, 235, 0.15) solid;
+    background-clip: padding-box;
+    -webkit-box-shadow: 0px 5px 29px 0px rgba(0, 0, 0, 0.19);
+    box-shadow: 0px 5px 29px 0px rgba(0, 0, 0, 0.19);
+    outline: none;
+}
+
+.line-heigth{
+    line-height: 40px;
+}
+
+@media (min-width: 1200px) {
+    .display-5, .product-details-tab ul.nav-tabs li .nav-link, .sub-title, .widget-title
+
+ {
+        font-size: 20px;
+    }
+}
+
+
+.ser-icon{
+    color: #fff;
+    font-size: 30px;
+}
+
+.course-entry .sub-title {
+    margin: .6rem 0 1rem;
+    line-height: 1.5;
+}
+
+
+.labs-heading{
+    font-size: 2.5rem;
+}
+
+.course-sec .swiper-slide
+{
+    width: 40rem;
 }

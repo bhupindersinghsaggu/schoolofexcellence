@@ -18041,7 +18041,7 @@ a.banner-ads .b-content {
 .category-entry:hover .teacher-entry .teacher-socials li a,
 .teacher-entry .teacher-socials li .category-entry.active a,
 .teacher-entry .teacher-socials li .category-entry:hover a {
-    background-color: var(--secondary);
+    background-color: #6045ff;
     box-shadow: 0 1.25rem 3.125rem 0 rgba(var(--secondary-rgb), .3)
 }
 
