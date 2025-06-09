@@ -33,7 +33,7 @@
 								<textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
 							</div>
 							<div class="col-lg-12 text-center">
-								<button type="submit" class="btn btn-primary rounded-5 mt-4">Submit</button>
+								<button type="submit" class="btn btn-primary-orange  mt-4">Submit</button>
 							</div>
 						</form>
 						<!-- Contact Form Start-->

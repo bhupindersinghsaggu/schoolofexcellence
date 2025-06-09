@@ -22,10 +22,13 @@
                <p class="lead-sm">Empowering students through a balanced blend of academics, values, and creativity for all-round development.</p>
                <div class="about-cta mt-5 d-flex">
                   <a href="#" class="btn btn-primary shadow rounded-5 me-5" data-toggle="modal" data-target="#exampleModal">Admissions Open </a>
-                  <a href="tel:919034252500" class="d-flex align-items-center text-reset play-btn"><span class="icon bg-secondary rounded-circle me-4">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call" style="color:#000;">
-                           <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
-                        </svg></span> Contact us</a>
+                  <div class="call-us">
+                     <a href="tel:919034252500" class="d-flex align-items-center text-reset play-btn"><span class="icon bg-secondary rounded-circle me-4">
+                           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-phone-call" style="color:#000;">
+                              <path d="M15.05 5A5 5 0 0 1 19 8.95M15.05 1A9 9 0 0 1 23 8.94m-1 7.98v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                           </svg>
+                        </span> Contact us</a>
+                  </div>
                </div>
             </div>
          </div>
@@ -36,7 +39,7 @@
 
 <div class="header-top bg-primary text-info text-uppercase">
    <div class="marquee" style="padding: 14px;">
-      <marquee scrollamount="5">
+      <marquee scrollamount="5" loop="2">
          <a href="#" data-toggle="modal" data-target="#exampleModal">
             <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
             <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
@@ -64,8 +67,8 @@
          </div>
          <div class="col-xl-6 col-md-10 order-1 order-md-2">
             <div class="about-txt">
-               <span class="badge-lg bg-primary rounded-5">Welcome to School of Excellence</span>
-               <h2 class="sec-title position-relative">A Future-Ready Learning <span class="color">Experience</span></h2>
+               <span class="badge-lg bg-primary rounded-5 ">Welcome to School of Excellence</span>
+               <h2 class="sec-title position-relative pd-50">A Future-Ready Learning <span class="color">Experience</span></h2>
                <p class="line-heigth">At School of Excellence we believe that education should be engaging, future-focused, and deeply personalized. Our hybrid learning model blends the best of Montessori, CBSE/ICSE, and experiential learning approaches, ensuring that every child develops a strong academic foundation while nurturing creativity, problem-solving, and essential life skills.</p>
                <div class="d-sm-flex align-items-center mt-5">
                   <a href="#" class="btn btn-primary shadow">More About us</a>
@@ -248,11 +251,12 @@
    </div>
 </div>
 <!-- Course Section End -->
-<section class="categories-sec sec-padding position-relative school-theme-color1">
+<section class="categories-sec sec-padding position-relative school-theme-color2">
    <div class="container">
       <img src="images/icons/dots1.png" alt="Dot 1" class="anim-img">
       <div class="text-center sec-intro">
-         <h2 class="sec-title">Why Choose <span class="color">School of Excellence</span></h2>
+         <h2 class="sec-title ">Why Choose <span class="color">School of Excellence</span></h2>
+         <h5>We provide more than just education<br>We offer a second home where your child feels loved, encouraged, and safe</h5>
       </div>
       <div class="row justify-content-center g-4">
          <div class="col-md-6 col-lg-4">
@@ -260,19 +264,14 @@
                <div class="card-head">
                   <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
                   <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h5>Personalized & <span class="pur-color">Hybrid Learning Approach</span></h5>
+                     <h5 class="txt-center">Personalized & <span class="pur-color">Hybrid Learning Approach</span></h5>
                      <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
                   </div>
-                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
-                  <ul class="list-black">
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Blended learning for flexible, engaging education</li>
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Personalized learning tailored to each student.
-                     </li>
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Technology-driven, interactive learning.
-                     </li>
-                  </ul>
+                  <!-- <div class="d-flex  justify-content-center">
+                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
+                  </div> -->
+                  <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
                </div>
-               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Your Seat</a>
             </div>
          </div> <!-- Pricing Card End -->
          <div class="col-md-6 col-lg-4">
@@ -280,39 +279,59 @@
                <div class="card-head">
                   <p> <img class="img-fluid" src="images/labs/2.jpg" alt="Instructor"></p>
                   <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h5>Experiential &  <span class="pur-color">Inquiry-Based Learning</span></h5>
-                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
+                     <h5 class="txt-center">Experiential & <span class="pur-color">Inquiry-Based Learning</span></h5>
                   </div>
-                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
-                  <ul class="list-black">
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Hands-on projects and real-world problem-solving to develop critical thinking</li>
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Personalized learning tailored to each student.
-                     </li>
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Technology-driven, interactive learning.
-                     </li>
-                  </ul>
+                  <!-- <div class="d-flex  justify-content-center">
+                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
+                  </div> -->
+                  <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
                </div>
-               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Your Seat</a>
             </div>
          </div> <!-- Pricing Card End -->
          <div class="col-md-6 col-lg-4">
             <div class="card pricing-card bg-shade border rounded-4">
                <div class="card-head">
-                  <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
+                  <p> <img class="img-fluid" src="images/labs/3.jpg" alt="Instructor"></p>
                   <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h5>Personalized & <span class="pur-color">Hybrid Learning Approach</span></h5>
+                     <h5 class="txt-center">Building Social Skills, <span class="pur-color">Creativity and Confidence</span></h5>
                      <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
                   </div>
-                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
-                  <ul class="list-black">
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Blended learning for flexible, engaging education</li>
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Personalized learning tailored to each student.
-                     </li>
-                     <li> <i class="fa-solid fa-paper-plane pur-color"></i> Technology-driven, interactive learning.
-                     </li>
-                  </ul>
+                  <!-- <div class="d-flex  justify-content-center">
+                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
+                  </div> -->
+                  <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
                </div>
-               <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">Book Your Seat</a>
+            </div>
+         </div> <!-- Pricing Card End -->
+      </div>
+      <div class="row justify-content-center g-4 pd-50">
+         <div class="col-md-6 col-lg-4">
+            <div class="card pricing-card bg-shade border rounded-4">
+               <div class="card-head">
+                  <p> <img class="img-fluid" src="images/labs/4.jpg" alt="Instructor"></p>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                     <h5 class="txt-center">Safe, Clorful Classrooms & <span class="pur-color">Joyful Activities</span></h5>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
+                  </div>
+                  <!-- <div class="d-flex  justify-content-center">
+                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
+                  </div> -->
+                  <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
+               </div>
+            </div>
+         </div> <!-- Pricing Card End -->
+         <div class="col-md-6 col-lg-4">
+            <div class="card pricing-card bg-shade border rounded-4">
+               <div class="card-head">
+                  <p> <img class="img-fluid" src="images/labs/5.jpg" alt="Instructor"></p>
+                  <div class="d-flex align-items-center justify-content-between mb-3">
+                     <h5 class="txt-center">Strong Parent-School <span class="pur-color">Partnership</span></h5>
+                  </div>
+                  <!-- <div class="d-flex  justify-content-center">
+                     <div class="button-next icon-sm text-info " tabindex="0" role="button" aria-label="Next slide" aria-controls="swiper-wrapper-2ffed5d564d26aa5"><i class="feather-icon icon-arrow-right why-choose-icon"></i></div>
+                  </div> -->
+                  <!-- <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p> -->
+               </div>
             </div>
          </div> <!-- Pricing Card End -->
       </div>
@@ -325,65 +344,48 @@
       <div class="row">
          <div class="col-lg-12">
             <div class="sec-intro text-center">
-               <span class="badge-lg bg-primary rounded-5">Pricing Plan</span>
-               <h2 class="sec-title">Choose Your <span class="color">Pricing Plan</span></h2>
+               <h2 class="sec-title">Choose Your <span class="color">Class</span></h2>
             </div>
          </div>
       </div>
-      <div class="row justify-content-center g-4">
+      <div class="row d-flex  justify-content-center g-4">
          <div class="col-md-6 col-lg-4">
             <div class="card pricing-card bg-shade border rounded-4">
                <div class="card-head">
-                  <p> <img class="img-fluid" src="images/labs/1.jpg" alt="Instructor"></p>
-                  <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h5><span>Personalized & Hybrid Learning Approach</span></h5>
-                     <!-- <span class="badge-lg bg-secondary rounded-5">Basic</span> -->
+                  <div class="d-flex  justify-content-between">
+                     <h2 class="sec-title  plan-title">Foundational Stage</h2>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Standard</span> -->
                   </div>
-                  <p>Blending traditional and digital methods, we offer flexible, student-focused learning tailored to individual needs.</p>
+                  <p><span class="badge-lg bg-primary rounded-5">2.5+ Years</span></p>
                </div>
-               <a href="#" class="btn btn-primary">Choose your Plan</a>
+               <div class="card-body bg-white border rounded-2">
+                  <ul>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Play group</p>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Nursery</p>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> KG, Prep</p>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> 1 & 2 </p>
+                  </ul>
+               </div>
+               <a href="#" class="btn btn-primary-orange" data-toggle="modal" data-target="#exampleModal">Make A Query</a>
             </div>
          </div> <!-- Pricing Card End -->
          <div class="col-md-6 col-lg-4">
             <div class="card pricing-card bg-shade border rounded-4">
                <div class="card-head">
-                  <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h2 class="display-2"><span>$</span>29 <sub>/month</sub></h2>
-                     <span class="badge-lg bg-secondary rounded-5">Standard</span>
+                  <div class="d-flex  justify-content-between">
+                     <h2 class="sec-title  plan-title">Preparatory Stage</h2>
+                     <!-- <span class="badge-lg bg-secondary rounded-5">Standard</span> -->
                   </div>
-                  <p><img class="me-2" src="images/icons/wallet-2.png" alt="wallet">Billed annually or yearly</p>
+                  <p><span class="badge-lg bg-primary rounded-5">6+ Years</span></p>
                </div>
-               <div class="card-body bg-white border rounded-2">
+               <div class="card-body bg-white border rounded-2 pd-74" style="margin-bottom: 75px;">
                   <ul>
-                     <li>Downloadable Resources</li>
-                     <li>Course Certification</li>
-                     <li>Instructor Interaction</li>
-                     <li>Exclusive Content Update</li>
-                     <li>Access to Premium Courses</li>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Class Three</p>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Class Four</p>
+                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Class Fifth</p>
                   </ul>
                </div>
-               <a href="#" class="btn btn-primary">Choose your Plan</a>
-            </div>
-         </div> <!-- Pricing Card End -->
-         <div class="col-md-6 col-lg-4">
-            <div class="card pricing-card bg-shade border rounded-4">
-               <div class="card-head">
-                  <div class="d-flex align-items-center justify-content-between mb-3">
-                     <h2 class="display-2"><span>$</span>39 <sub>/month</sub></h2>
-                     <span class="badge-lg bg-secondary rounded-5">Premium</span>
-                  </div>
-                  <p><img class="me-2" src="images/icons/wallet-2.png" alt="wallet">Billed annually or yearly</p>
-               </div>
-               <div class="card-body bg-white border rounded-2">
-                  <ul>
-                     <li>Downloadable Resources</li>
-                     <li>Course Certification</li>
-                     <li>Instructor Interaction</li>
-                     <li>Exclusive Content Update</li>
-                     <li>Access to Premium Courses</li>
-                  </ul>
-               </div>
-               <a href="#" class="btn btn-primary">Choose your Plan</a>
+               <a href="#" class="btn btn-primary-orange" data-toggle="modal" data-target="#exampleModal">Make A Query</a>
             </div>
          </div> <!-- Pricing Card End -->
       </div>
