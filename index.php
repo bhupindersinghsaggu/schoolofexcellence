@@ -87,8 +87,8 @@
    <div class="container">
       <div class="d-flex justify-content-between align-items-top">
          <div class="sec-intro">
-            <span class="badge-lg bg-primary rounded-5">Trending Courses</span>
-            <h2 class="sec-title mb-4">Our Popular <span class="color">Courses</span></h2>
+            <span class="badge-lg bg-primary rounded-5">Let's A Tour</span>
+            <h2 class="sec-title mb-4">Facilities &  <span class="color">Campus Life</span></h2>
          </div>
          <div class="custom-nav d-flex gap-3 align-items-center">
             <!-- navigation -->
@@ -164,7 +164,7 @@
                      <p></p>
                      </h3>
                      <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                        <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                        <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
                      </div>
                </div>
             </div>
@@ -188,7 +188,7 @@
                      <p></p>
                   </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                     <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                      <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
                   </div>
                </div>
             </div>
@@ -198,20 +198,21 @@
          <div class="swiper-slide">
             <div class="course-entry-3 card rounded-2 bg-white border">
                <div class="card-media position-relative">
-                  <a href="single-course.html"><img class="card-img-top" src="images/course6.jpg" alt="Course" /></a>
+                  <a href="#"><img class="card-img-top" src="images/labs/library.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
                   <div class="course-meta d-flex justify-content-between align-items-center mb-2">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
+                        <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
-                  <h3 class="sub-title mb-0">
-                     React JS Zero to Mastery Front End Essentails
+                  <h2 class="sec-title mb-4 labs-heading">
+                     Library
                      <p></p>
-                  </h3>
+                  </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                     <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                     <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
                   </div>
                </div>
             </div>
@@ -221,20 +222,21 @@
          <div class="swiper-slide">
             <div class="course-entry-3 card rounded-2 bg-white border">
                <div class="card-media position-relative">
-                  <a href="single-course.html"><img class="card-img-top" src="images/course6.jpg" alt="Course" /></a>
+                  <a href="#"><img class="card-img-top" src="images/labs/lab1.jpg" alt="Course" /></a>
                </div>
                <div class="card-body">
                   <div class="course-meta d-flex justify-content-between align-items-center mb-2">
                      <div class="d-flex align-items-center">
                         <img src="images/icons/star.png" alt="" />
+                        <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" /> <img src="images/icons/star.png" alt="" />
                      </div>
                   </div>
-                  <h3 class="sub-title mb-0">
-                     React JS Zero to Mastery Front End Essentails
+                  <h2 class="sec-title mb-4 labs-heading">
+                     Learner's hub
                      <p></p>
-                  </h3>
+                  </h2>
                   <div class="course-footer d-flex align-items-center justify-content-between pt-3">
-                     <a href="#">Enroll Now <i class="feather-icon icon-arrow-right"></i></a>
+                     <a href="#">More Info <i class="feather-icon icon-arrow-right"></i></a>
                   </div>
                </div>
             </div>
