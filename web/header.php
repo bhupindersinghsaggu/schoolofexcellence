@@ -59,11 +59,9 @@
                         </ul>
                     </div>
                     <span class="announce-offer d-none d-md-block"><img class="me-2" width="25"
-                            src="images/icons/motivation.png" alt="Offer">Get Eduxo for Big Sale 75 <sup>%</sup> OFF.</span>
+                            src="images/icons/motivation.png" alt="Offer">Admission Open 2025-26</span>
                     <div class="d-flex align-items-center info-right justify-content-end">
-                        <span class="d-none d-lg-block"><img class="me-2" src="images/icons/location.png" alt="location">128
-                            Ave, TX 88595,
-                            UK </span>
+                        <span class="d-none d-lg-block"><img class="me-2" src="images/icons/location.png" alt="location">Sector-18, Huda, Panipat</span>
                         <div class="social-share-alt d-flex align-items-center justify-content-end">
                             <span class="d-none d-sm-block">Follow Us:</span>
                             <span><a href="#"><img src="images/icons/fb-w.png" alt="Facebook"></a></span>
