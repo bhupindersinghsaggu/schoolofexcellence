@@ -339,7 +339,7 @@
 </section>
 
 <!-- Pricing Section Start -->
-<section class="pricing-sec sec-padding">
+<section class="pricing-sec sec-padding" style="background-image: url(/images/class-bg.png);">
    <div class="container">
       <div class="row">
          <div class="col-lg-12">
@@ -392,292 +392,66 @@
    </div>
 </section>
 <!-- Pricing Section End -->
-
-<!-- Instructor Section Start -->
-<section class="instructor-sec-2 sec-padding">
-   <div class="container-fluid">
-      <div class="text-center">
-         <span class="badge-lg bg-primary rounded-5">Expert Teacher</span>
-         <h2 class="sec-title text-info">Meet Our <span class="color">Instructor</span></h2>
+<section class="contact-sec sec-padding position-relative overflow-hidden">
+    <div class="offcanvas-overly"></div>
+    <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
+    <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-7 col-md-7 order-md-1 order-2">
+          <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
+            <form id="contact-form" class="row" method="POST" action="mail.php">
+              <div class="col-lg-6 form-group">
+                <i class="feather-icon icon-user"></i>
+                <input class="form-control" name="name" type="text" placeholder="Name" required="">
+              <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></div>
+              <div class="col-lg-6 form-group">
+                <i class="feather-icon icon-mail"></i>
+                <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
+              </div>
+              <div class="col-lg-6 form-group">
+                <i class="feather-icon icon-pocket"></i>
+                <input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
+              </div>
+              <div class="col-lg-6 form-group">
+                <i class="feather-icon icon-phone-call"></i>
+                <input class="form-control" type="text" name="phone" placeholder="Phone Number" required="">
+              </div>
+              <div class="col-lg-12 form-group">
+                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
+              </div>
+              <div class="form-group mt-4">
+                <button type="submit" class="btn btn-dark rounded-5">Submit Now</button>
+              </div>
+            </form>
+            <!-- Contact Form Start-->
+            <div class="open-popup rounded-3">
+              <div class="icon">
+                <i class="feather-icon icon-check"></i>
+              </div>
+              <h2>Success</h2>
+              <p>Thank You! Your message has been sent.</p>
+              <div class="close_popup_btn">
+                <button class="btn btn-primary rounded-5">Okey</button>
+              </div>
+            </div>
+            <!-- Contact Form Message End -->
+          </div>
+          <!-- Contact Form End -->
+        </div>
+        <div class="col-lg-5 col-md-5 order-md-2 order-1">
+          <div class="contact-txt">
+            <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
+            <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
+            <p>
+              Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
+              a better world it will be.
+            </p>
+          </div>
+        </div>
       </div>
-      <div class="row row-cols-sm-2 row-cols-md-3 row-cols-xl-5 justify-content-center g-4">
-         <div class="instructor-card">
-            <div class="card-media"><a href="single-instructor.html"><img class="img-fluid" src="images/inst1.png"
-                     alt="Instructor"></a></div>
-            <div class="ins-content mt-3 text-center">
-               <h3 class="display-5 mb-0"><a href="single-instructor.html">Dr. Jessica Nguyen</a></h3>
-               <p>Senior Lecturer</p>
-               <div class="social-share">
-                  <a href="#"><img src="images/icons/fb-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/tw-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/linkedin-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/ins-w.png" alt=""></a>
-               </div>
-            </div>
-         </div> <!-- Instructor Card End -->
-         <div class="instructor-card">
-            <div class="card-media"><a href="single-instructor.html"><img class="img-fluid" src="images/inst2.png"
-                     alt="Instructor"></a></div>
-            <div class="ins-content mt-3 text-center">
-               <h3 class="display-5 mb-0"><a href="single-instructor.html">Dr. Allison Smith</a></h3>
-               <p>Math Specialist</p>
-               <div class="social-share">
-                  <a href="#"><img src="images/icons/fb-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/tw-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/linkedin-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/ins-w.png" alt=""></a>
-               </div>
-            </div>
-         </div> <!-- Instructor Card End -->
-         <div class="instructor-card">
-            <div class="card-media"><a href="single-instructor.html"><img class="img-fluid" src="images/inst3.png"
-                     alt="Instructor"></a></div>
-            <div class="ins-content mt-3 text-center">
-               <h3 class="display-5 mb-0"><a href="single-instructor.html">Maria Rivera, M.A.</a></h3>
-               <p>Arts Instructor</p>
-               <div class="social-share">
-                  <a href="#"><img src="images/icons/fb-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/tw-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/linkedin-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/ins-w.png" alt=""></a>
-               </div>
-            </div>
-         </div> <!-- Instructor Card End -->
-         <div class="instructor-card">
-            <div class="card-media"><a href="single-instructor.html"><img class="img-fluid" src="images/inst4.png"
-                     alt="Instructor"></a></div>
-            <div class="ins-content mt-3 text-center">
-               <h3 class="display-5 mb-0"><a href="single-instructor.html">Michael Clark, Ph.D.</a></h3>
-               <p>Physics Professor</p>
-               <div class="social-share">
-                  <a href="#"><img src="images/icons/fb-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/tw-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/linkedin-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/ins-w.png" alt=""></a>
-               </div>
-            </div>
-         </div> <!-- Instructor Card End -->
-         <div class="instructor-card">
-            <div class="card-media"><a href="single-instructor.html"><img class="img-fluid" src="images/inst5.png"
-                     alt="Instructor"></a></div>
-            <div class="ins-content mt-3 text-center">
-               <h3 class="display-5 mb-0"><a href="single-instructor.html">Rachel Bennett</a></h3>
-               <p>History Department Chair</p>
-               <div class="social-share">
-                  <a href="#"><img src="images/icons/fb-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/tw-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/linkedin-w.png" alt=""></a>
-                  <a href="#"><img src="images/icons/ins-w.png" alt=""></a>
-               </div>
-            </div>
-         </div> <!-- Instructor Card End -->
-      </div>
-   </div>
-</section>
-<!-- Instructor Section End -->
-
-<!-- Review Section Start -->
-<section class="review-2">
-   <div class="container">
-      <div class="text-center pb-5">
-         <span class="badge-lg bg-primary rounded-5">Testimonial</span>
-         <h2 class="sec-title">Students Says <span class="color">About Us</span></h2>
-      </div>
-      <div class="row">
-         <div class="col-lg-12">
-            <div class="swiper review-wrap">
-               <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                     <div class="card review-card">
-                        <div class="ratings mb-3">
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                        </div>
-                        <p>“I could not be more thrille that I ended up deciding on Circle become the home of the
-                           Light Moment community.”
-                        </p>
-                        <div class="d-flex align-items-center justify-content-between mt-2">
-                           <div class="reviewer">
-                              <h3 class="display-5">Emily Turner</h3>
-                              <p class="small m-0">Education Analyst</p>
-                           </div>
-                           <img src="images/icons/quote-right.svg" alt="quote">
-                        </div>
-                     </div>
-                  </div> <!-- Review Slide End -->
-                  <div class="swiper-slide">
-                     <div class="card review-card">
-                        <div class="ratings mb-3">
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                        </div>
-                        <p>“I could not be more thrille that I ended up deciding on Circle become the home of the
-                           Light Moment community.”
-                        </p>
-                        <div class="d-flex align-items-center justify-content-between mt-2">
-                           <div class="reviewer">
-                              <h3 class="display-5">Dr. Mark Thompson</h3>
-                              <p class="small m-0">E-Learning Architect</p>
-                           </div>
-                           <img src="images/icons/quote-right.svg" alt="quote">
-                        </div>
-                     </div>
-                  </div> <!-- Review Slide End -->
-                  <div class="swiper-slide">
-                     <div class="card review-card">
-                        <div class="ratings mb-3">
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                        </div>
-                        <p>“I could not be more thrille that I ended up deciding on Circle become the home of the
-                           Light Moment community.”
-                        </p>
-                        <div class="d-flex align-items-center justify-content-between mt-2">
-                           <div class="reviewer">
-                              <h3 class="display-5">Alex Carter</h3>
-                              <p class="small m-0">Curriculum Specialist</p>
-                           </div>
-                           <img src="images/icons/quote-right.svg" alt="quote">
-                        </div>
-                     </div>
-                  </div> <!-- Review Slide End -->
-                  <div class="swiper-slide">
-                     <div class="card review-card">
-                        <div class="ratings mb-3">
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                        </div>
-                        <p>“I could not be more thrille that I ended up deciding on Circle become the home of the
-                           Light Moment community.”
-                        </p>
-                        <div class="d-flex align-items-center justify-content-between mt-2">
-                           <div class="reviewer">
-                              <h3 class="display-5">Emily Turner</h3>
-                              <p class="small m-0">Education Analyst</p>
-                           </div>
-                           <img src="images/icons/quote-right.svg" alt="quote">
-                        </div>
-                     </div>
-                  </div> <!-- Review Slide End -->
-                  <div class="swiper-slide">
-                     <div class="card review-card">
-                        <div class="ratings mb-3">
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                        </div>
-                        <p>“I could not be more thrille that I ended up deciding on Circle become the home of the
-                           Light Moment community.”
-                        </p>
-                        <div class="d-flex align-items-center justify-content-between mt-2">
-                           <div class="reviewer">
-                              <h3 class="display-5">Alex Carter</h3>
-                              <p class="small m-0">Curriculum Specialist</p>
-                           </div>
-                           <img src="images/icons/quote-right.svg" alt="quote">
-                        </div>
-                     </div>
-                  </div> <!-- Review Slide End -->
-                  <div class="swiper-slide">
-                     <div class="card review-card">
-                        <div class="ratings mb-3">
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                           <a href="#"><img src="images/icons/star.png" alt=""></a>
-                        </div>
-                        <p>“I could not be more thrille that I ended up deciding on Circle become the home of the
-                           Light Moment community.”
-                        </p>
-                        <div class="d-flex align-items-center justify-content-between mt-2">
-                           <div class="reviewer">
-                              <h3 class="display-5">Emily Turner</h3>
-                              <p class="small m-0">Education Analyst</p>
-                           </div>
-                           <img src="images/icons/quote-right.svg" alt="quote">
-                        </div>
-                     </div>
-                  </div> <!-- Review Slide End -->
-               </div>
-               <!-- If we need navigation buttons -->
-               <div class="d-flex justify-content-center my-5">
-                  <div class="swiper-button-prev"></div>
-                  <div class="swiper-button-next"></div>
-               </div>
-            </div> <!-- Review 2 Slider End -->
-         </div>
-      </div>
-   </div>
-</section>
-<!-- Review Section End -->
-
-<!-- Blog Section Start -->
-<section class="blog-sec sec-padding">
-   <div class="container">
-      <div class="text-center pb-5">
-         <span class="badge-lg bg-primary rounded-5">Blog & News</span>
-         <h2 class="sec-title">Latest From Our <span class="color">Blogs</span></h2>
-      </div>
-      <div class="row g-4">
-         <div class="col-lg-4 col-md-4">
-            <div class="single-entry-2">
-               <figure class="entry-thumb">
-                  <a href="single-post.html"><img class="img-fluid" src="images/post-1.jpg" alt="Blog"></a>
-               </figure>
-               <div class="entry-meta py-2">
-                  <span><i class="feather-icon icon-clock me-2 text-primary"></i>3 min read</span>
-                  <span><i class="feather-icon icon-calendar me-2 text-primary"></i>21 Feb, 2024</span>
-               </div>
-               <h3 class="display-5"><a href="single-post.html">Inspire, Innovate, Illuminate: Education Matters</a>
-               </h3>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-4">
-            <div class="single-entry-2">
-               <figure class="entry-thumb">
-                  <a href="single-post.html"><img class="img-fluid" src="images/post-2.jpg" alt="Blog"></a>
-               </figure>
-               <div class="entry-meta py-2">
-                  <span><i class="feather-icon icon-clock me-2 text-primary"></i>3 min read</span>
-                  <span><i class="feather-icon icon-calendar me-2 text-primary"></i>21 Feb, 2024</span>
-               </div>
-               <h3 class="display-5"><a href="single-post.html">Empower through Education, Enrich through
-                     Knowledge</a>
-               </h3>
-            </div>
-         </div>
-         <div class="col-lg-4 col-md-4">
-            <div class="single-entry-2">
-               <figure class="entry-thumb">
-                  <a href="single-post.html"><img class="img-fluid" src="images/post-3.jpg" alt="Blog"></a>
-               </figure>
-               <div class="entry-meta py-2">
-                  <span><i class="feather-icon icon-clock me-2 text-primary"></i>3 min read</span>
-                  <span><i class="feather-icon icon-calendar me-2 text-primary"></i>21 Feb, 2024</span>
-               </div>
-               <h3 class="display-5"><a href="single-post.html">Education: The Pathway to Possibilities</a>
-               </h3>
-            </div>
-         </div>
-      </div>
-   </div>
-</section>
-<!-- Blog Section End -->
+    </div>
+  </section>
 
 
 <!-- Footer Section Start -->
