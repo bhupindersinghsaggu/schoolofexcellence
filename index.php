@@ -1,5 +1,6 @@
 <?php include('web/header.php'); ?>
 
+
 <!-- Banner Section Start -->
 <div class="about-sec sec-padding school-theme-color1">
    <div class="container">
@@ -344,114 +345,192 @@
       <div class="row">
          <div class="col-lg-12">
             <div class="sec-intro text-center">
-               <h2 class="sec-title">Choose Your <span class="color">Class</span></h2>
+               <h5 span>Choose Your Class</span>
+                  <h2 class="sec-title">We Makes a Door to <span class="color">Bright Future</span></h2>
             </div>
          </div>
       </div>
-      <div class="row d-flex  justify-content-center g-4">
-         <div class="col-md-6 col-lg-4">
-            <div class="card pricing-card bg-shade border rounded-4">
-               <div class="card-head">
-                  <div class="d-flex  justify-content-between">
-                     <h2 class="sec-title  plan-title">Foundational Stage</h2>
-                     <!-- <span class="badge-lg bg-secondary rounded-5">Standard</span> -->
-                  </div>
-                  <p><span class="badge-lg bg-primary rounded-5">2.5+ Years</span></p>
-               </div>
-               <div class="card-body bg-white border rounded-2">
-                  <ul>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Play group</p>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Nursery</p>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> KG, Prep</p>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> 1 & 2 </p>
+      <div class="row">
+         <div class="col-lg-6">
+            <div class="apply-card  text-info rounded-3 bg-primary">
+               <h3>Foundational Stage</h3>
+               <h2 class="white-color-icon">2.5+ Years</h2>
+               <div class="card-body  border rounded-2 mb-20">
+                  <ul class="school-class-list">
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20 "></i> Play group</li>
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Nursery</li>
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> KG, Prep</li>
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class I </li>
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class II </li>
                   </ul>
                </div>
-               <a href="#" class="btn btn-primary-orange" data-toggle="modal" data-target="#exampleModal">Make A Query</a>
+               <div><a href="#" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModal">Apply Now</a></div>
             </div>
-         </div> <!-- Pricing Card End -->
-         <div class="col-md-6 col-lg-4">
-            <div class="card pricing-card bg-shade border rounded-4">
-               <div class="card-head">
-                  <div class="d-flex  justify-content-between">
-                     <h2 class="sec-title  plan-title">Preparatory Stage</h2>
-                     <!-- <span class="badge-lg bg-secondary rounded-5">Standard</span> -->
-                  </div>
-                  <p><span class="badge-lg bg-primary rounded-5">6+ Years</span></p>
-               </div>
-               <div class="card-body bg-white border rounded-2 pd-74" style="margin-bottom: 75px;">
-                  <ul>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Class Three</p>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Class Four</p>
-                     <p> <i class="fa-solid fa-paper-plane pur-color"></i> Class Fifth</p>
+         </div>
+         <div class="col-lg-6">
+            <div class="apply-card text-info rounded-3 bg-secondary">
+               <h3>Preparatory Stage</h3>
+               <h2 class="white-color-icon ">6+ Years</h2>
+               <div class="card-body  border rounded-2 mb-20">
+                  <ul class="school-class-list">
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20 "></i> Class III</li>
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class IV</li>
+                     <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20"></i> Class V </li>
                   </ul>
                </div>
-               <a href="#" class="btn btn-primary-orange" data-toggle="modal" data-target="#exampleModal">Make A Query</a>
+               <div><a href="#" class="btn btn-info btn-sm" data-toggle="modal" data-target="#exampleModal">Apply Now</a></div>
             </div>
-         </div> <!-- Pricing Card End -->
+         </div>
       </div>
    </div>
 </section>
+<section class="blog-sec bg-shade sec-padding">
+   <div class="container">
+      <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
+         <div class="sec-intro">
+            <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span>
+            <h2 class="sec-title mb-0">Latest <span class="color">Activities</span></h2>
+         </div>
+         <!-- <a href="blog.html" class="btn btn-primary align-self-start shadow rounded-5">Read all Blog</a> -->
+      </div>
+      <div class="row">
+         <div class="col-lg-4">
+            <article class="single-entry position-relative">
+               <figure class="entry-media overflow-hidden">
+                  <a href="single-post.html"><img src="images/blog1.png" alt="Blog"></a>
+               </figure>
+               <div class="entry-content position-absolute">
+                  <div class="content-header">
+                     <div class="d-flex entry-meta">
+                        <span><i class="feather-icon icon-user"></i>By <a href="#">Admin</a></span>
+                        <span><i class="feather-icon icon-calendar"></i>21 Dec, 2024</span>
+                     </div>
+                     <h5 class="mt-2 font-bold"><a href="single-post.html" class="text-reset">Dream Big, Learn
+                           More, Achieve Beyond Education</a></h5>
+                  </div>
+                  <div class="entry-hover">
+                     <a href="single-post.html" class="link-primary fw-bold">Read More <i class="feather-icon icon-arrow-right"></i></a>
+                  </div>
+               </div>
+            </article>
+            <!-- Article Entry End -->
+         </div>
+         <div class="col-lg-4">
+            <article class="single-entry position-relative">
+               <figure class="entry-media overflow-hidden">
+                  <a href="single-post.html"><img src="images/blog2.jpg" alt="Blog"></a>
+               </figure>
+               <div class="entry-content position-absolute">
+                  <div class="content-header">
+                     <div class="d-flex entry-meta">
+                        <span><i class="feather-icon icon-user"></i>By <a href="#">Admin</a></span>
+                        <span><i class="feather-icon icon-calendar"></i>21 Dec, 2024</span>
+                     </div>
+                     <h5 class="mt-2 font-bold"><a href="single-post.html" class="text-reset">Learning Today,
+                           Leading Tomorrow's World</a></h5>
+                  </div>
+                  <div class="entry-hover">
+                  </div>
+               </div>
+            </article>
+            <!-- Article Entry End -->
+         </div>
+         <div class="col-lg-4">
+            <article class="single-entry position-relative">
+               <figure class="entry-media overflow-hidden">
+                  <a href="single-post.html"><img src="images/blog2.jpg" alt="Blog"></a>
+               </figure>
+               <div class="entry-content position-absolute">
+                  <div class="content-header">
+                     <div class="d-flex entry-meta">
+                        <span><i class="feather-icon icon-user"></i>By <a href="#">Admin</a></span>
+                        <span><i class="feather-icon icon-calendar"></i>21 Dec, 2024</span>
+                     </div>
+                     <h5 class="mt-2 font-bold"><a href="single-post.html" class="text-reset">Learning Today,
+                           Leading Tomorrow's World</a></h5>
+                  </div>
+                  <div class="entry-hover">
+                     <a href="single-post.html" class="link-primary fw-bold">Read More <i class="feather-icon icon-arrow-right"></i></a>
+                  </div>
+               </div>
+            </article>
+            <!-- Article Entry End -->
+         </div>
+      </div>
+   </div>
+</section>
+
+<?php foreach ($photosData as $filename => $info): ?>
+   <div style="margin:10px; display:inline-block;">
+      <img src="uploads/<?php echo htmlspecialchars($filename); ?>" width="200"><br>
+      <strong>Date:</strong> <?php echo htmlspecialchars($info['date']); ?><br>
+      <a href="<?php echo htmlspecialchars($info['link']); ?>" target="_blank">Visit Link</a>
+   </div>
+<?php endforeach; ?>
+
+
 <!-- Pricing Section End -->
 <section class="contact-sec sec-padding position-relative overflow-hidden">
-    <div class="offcanvas-overly"></div>
-    <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
-    <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
-    <div class="container">
+   <div class="offcanvas-overly"></div>
+   <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
+   <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
+   <div class="container">
       <div class="row align-items-center">
-        <div class="col-lg-7 col-md-7 order-md-1 order-2">
-          <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
-            <form id="contact-form" class="row" method="POST" action="mail.php">
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-user"></i>
-                <input class="form-control" name="name" type="text" placeholder="Name" required="">
-              <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div></div>
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-mail"></i>
-                <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
-              </div>
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-pocket"></i>
-                <input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
-              </div>
-              <div class="col-lg-6 form-group">
-                <i class="feather-icon icon-phone-call"></i>
-                <input class="form-control" type="text" name="phone" placeholder="Phone Number" required="">
-              </div>
-              <div class="col-lg-12 form-group">
-                <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
-              </div>
-              <div class="form-group mt-4">
-                <button type="submit" class="btn btn-dark rounded-5">Submit Now</button>
-              </div>
-            </form>
-            <!-- Contact Form Start-->
-            <div class="open-popup rounded-3">
-              <div class="icon">
-                <i class="feather-icon icon-check"></i>
-              </div>
-              <h2>Success</h2>
-              <p>Thank You! Your message has been sent.</p>
-              <div class="close_popup_btn">
-                <button class="btn btn-primary rounded-5">Okey</button>
-              </div>
+         <div class="col-lg-7 col-md-7 order-md-1 order-2">
+            <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
+               <form id="contact-form" class="row" method="POST" action="mail.php">
+                  <div class="col-lg-6 form-group">
+                     <i class="feather-icon icon-user"></i>
+                     <input class="form-control" name="name" type="text" placeholder="Name" required="">
+                     <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
+                  </div>
+                  <div class="col-lg-6 form-group">
+                     <i class="feather-icon icon-mail"></i>
+                     <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
+                  </div>
+                  <div class="col-lg-6 form-group">
+                     <i class="feather-icon icon-pocket"></i>
+                     <input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
+                  </div>
+                  <div class="col-lg-6 form-group">
+                     <i class="feather-icon icon-phone-call"></i>
+                     <input class="form-control" type="text" name="phone" placeholder="Phone Number" required="">
+                  </div>
+                  <div class="col-lg-12 form-group">
+                     <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
+                  </div>
+                  <div class="form-group mt-4">
+                     <button type="submit" class="btn btn-dark rounded-5">Submit Now</button>
+                  </div>
+               </form>
+               <!-- Contact Form Start-->
+               <div class="open-popup rounded-3">
+                  <div class="icon">
+                     <i class="feather-icon icon-check"></i>
+                  </div>
+                  <h2>Success</h2>
+                  <p>Thank You! Your message has been sent.</p>
+                  <div class="close_popup_btn">
+                     <button class="btn btn-primary rounded-5">Okey</button>
+                  </div>
+               </div>
+               <!-- Contact Form Message End -->
             </div>
-            <!-- Contact Form Message End -->
-          </div>
-          <!-- Contact Form End -->
-        </div>
-        <div class="col-lg-5 col-md-5 order-md-2 order-1">
-          <div class="contact-txt">
-            <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
-            <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
-            <p>
-              Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
-              a better world it will be.
-            </p>
-          </div>
-        </div>
+            <!-- Contact Form End -->
+         </div>
+         <div class="col-lg-5 col-md-5 order-md-2 order-1">
+            <div class="contact-txt">
+               <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
+               <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
+               <p>
+                  Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
+                  a better world it will be.
+               </p>
+            </div>
+         </div>
       </div>
-    </div>
-  </section>
+   </div>
+</section>
 
 
 <!-- Footer Section Start -->

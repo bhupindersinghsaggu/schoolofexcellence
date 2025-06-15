@@ -18,6 +18,10 @@
     color: #fff;
 }
 
+.mrg20{
+    margin-right: 20px;
+}
+
 .adm-text {
     color: #fff;
 }
@@ -33,6 +37,10 @@
 
 .white-color {
     background: #fff;
+}
+
+.white-color-icon {
+    color: #fff;
 }
 
 /* .about-sec2 .sec-title {
@@ -172,4 +180,28 @@
     --bs-btn-disabled-color: #fff;
     --bs-btn-disabled-bg: var(--secondary);
     --bs-btn-disabled-border-color: var(--secondary);
+}
+
+
+.school-class-list{
+    list-style: none;
+    padding: 30px;
+    line-height: 68px;
+    font-size: 27px;
+}
+
+.single-entry .entry-content {
+    position: absolute;
+    background-color: var(--white);
+    padding: 1.875rem 1.25rem 1.25rem 2.1875rem;
+    max-width: calc(100% - 1rem);
+    left: 0;
+    bottom: -1.5625rem;
+    overflow: hidden;
+    z-index: 2;
+    -webkit-transition: all .4s ease-in-out;
+    -moz-transition: all .4s ease-in-out;
+    -ms-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
 }
