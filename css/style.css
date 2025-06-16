@@ -601,7 +601,7 @@ textarea {
     padding-bottom: 5px;
     padding-right: 10px;
     padding-left: 10px;
-    background: coral;
+    background: rgb(255, 255, 255);
 }
 
 
@@ -14368,7 +14368,7 @@ html.lenis body {
 input,
 textarea {
     width: 100%;
-    color: var(--mute);
+    color: #000;
     padding: 1rem 1.75rem;
     border: .0625rem solid var(--border-color);
     -webkit-border-radius: .3125rem;
