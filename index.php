@@ -1,5 +1,47 @@
 <?php include('web/header.php'); ?>
 
+<?php
+$images = file_exists('admin/data.json') ? json_decode(file_get_contents('admin/data.json'), true) : [];
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Photo Gallery</title>
+    <style>
+        body { font-family: Arial, sans-serif; }
+        .gallery { display: flex; flex-wrap: wrap; gap: 20px; }
+        .item { width: 200px; border: 1px solid #ccc; padding: 10px; }
+        .item img { width: 100%; height: auto; display: block; }
+        .info { margin-top: 10px; font-size: 14px; }
+        .info a { color: #007BFF; text-decoration: none; word-break: break-word; }
+    </style>
+</head>
+<body>
+
+<h2>Photo Gallery</h2>
+
+<?php if (empty($images)): ?>
+    <p>No photos found.</p>
+<?php else: ?>
+    <div class="gallery">
+        <?php foreach ($images as $img): ?>
+        <div class="item">
+            <img src="admin/uploads/<?= htmlspecialchars($img['filename']) ?>" alt="Image">
+            <div class="info">
+                <a href="<?= htmlspecialchars($img['name']) ?>" target="_blank">
+                    <?= htmlspecialchars($img['name']) ?>
+                </a><br>
+                <small><?= htmlspecialchars($img['date']) ?></small>
+            </div>
+        </div>
+        <?php endforeach; ?>
+    </div>
+<?php endif; ?>
+
+</body>
+</html>
+
 
 <!-- Banner Section Start -->
 <div class="about-sec sec-padding school-theme-color1">
@@ -384,6 +426,30 @@
       </div>
    </div>
 </section>
+
+
+<h2>Gallery</h2>
+<table>
+   <tr>
+      <th>Photo</th>
+      <th>Name/URL</th>
+      <th>Date</th>
+      <th>Delete</th>
+   </tr>
+   <?php foreach ($images as $index => $img): ?>
+      <tr>
+         <td><img src="uploads/<?= htmlspecialchars($img['filename']) ?>"></td>
+         <td><?= htmlspecialchars($img['name']) ?></td>
+         <td><?= htmlspecialchars($img['date']) ?></td>
+         <td>
+            <form action="delete.php" method="post" onsubmit="return confirm('Delete this image?');">
+               <input type="hidden" name="index" value="<?= $index ?>">
+               <input type="submit" value="Delete">
+            </form>
+         </td>
+      </tr>
+   <?php endforeach; ?>
+</table>
 <section class="blog-sec bg-shade sec-padding">
    <div class="container">
       <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
@@ -459,16 +525,6 @@
       </div>
    </div>
 </section>
-
-<?php foreach ($photosData as $filename => $info): ?>
-   <div style="margin:10px; display:inline-block;">
-      <img src="uploads/<?php echo htmlspecialchars($filename); ?>" width="200"><br>
-      <strong>Date:</strong> <?php echo htmlspecialchars($info['date']); ?><br>
-      <a href="<?php echo htmlspecialchars($info['link']); ?>" target="_blank">Visit Link</a>
-   </div>
-<?php endforeach; ?>
-
-
 <!-- Pricing Section End -->
 <section class="contact-sec sec-padding position-relative overflow-hidden">
    <div class="offcanvas-overly"></div>

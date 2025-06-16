@@ -10,21 +10,6 @@ $images = file_exists('data.json') ? json_decode(file_get_contents('data.json'),
         img { width: 150px; }
         table, th, td { border: 1px solid #ccc; border-collapse: collapse; padding: 10px; }
     </style>
-
-    <link rel="stylesheet" href="../css/style.css">
-       <link rel="stylesheet" href="..css/feather.css">
-   <link rel="stylesheet" href="..css/nice-select2.css">
-   <link href="..css/glightbox.min.css" rel="stylesheet">
-   <link rel="stylesheet" href="..css/nouislider.min.css">
-   <link rel="stylesheet" href="..css/swiper-bundle.min.css">
-   <!-- Style css -->
-   <link rel="stylesheet" href="..css/style.css">
-   <!-- Custom css -->
-   <link rel="stylesheet" href="..css/custom.css">
-   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
-
-
 </head>
 <body>
 <h2>Upload New Photo</h2>
