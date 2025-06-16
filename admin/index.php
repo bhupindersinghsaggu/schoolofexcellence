@@ -114,33 +114,34 @@ $images = file_exists('data.json') ? json_decode(file_get_contents('data.json'),
                         <div class="container">
                             <div class="row">
                                 <div class="col-sm-12">
-                                    <h2>Gallery</h2>
+                                    <h4>Gallery Data</h4>
                                     <table class="table table-responsive-sm ">
                                         <tr>
-                                            <th>Date</th>
-                                            <th>Photo</th>
-                                            <th>Title</th>
-                                            <th>URL</th>
-                                            <th>Decription</th>
-                                            <th>Delete</th>
+                                            <th style="width: 60px;">Date</th>
+                                            <th style="width: 60px;">Photo</th>
+                                            <th style="width: 60px;">Title</th>
+                                            <th style="width: 60px;">URL</th>
+                                            <th style="width:60px;">Decription</th>
+                                            <th style="width: 60px;">Delete</th>
+                                            <th style="width: 60px;">Edit</th>
                                         </tr>
                                         <?php foreach ($images as $index => $img): ?>
                                             <tr>
-                                                <td><?= htmlspecialchars($img['date']) ?></td>
-                                                <td><img src="uploads/<?= htmlspecialchars($img['filename']) ?>"></td>
-                                                <td><?= htmlspecialchars($img['title']) ?></td>
-                                                <td><?= htmlspecialchars($img['name']) ?></td>
-                                                <td><?= htmlspecialchars($img['text']) ?></td>
+                                                <td style="width: 60px;"><?= htmlspecialchars($img['date']) ?></td>
+                                                <td style="width: 60px;"><img src="uploads/<?= htmlspecialchars($img['filename']) ?>"></td>
+                                                <td style="width: 60px;"><?= htmlspecialchars($img['title']) ?></td>
+                                                <td style="width: 60px;"><?= htmlspecialchars($img['name']) ?></td>
+                                                <td style="width: 60px;"><?= htmlspecialchars($img['text']) ?></td>
                                                 <td>
                                                     <form action="delete.php" method="post" onsubmit="return confirm('Delete this image?');">
                                                         <input type="hidden" name="index" value="<?= $index ?>">
-                                                        <input class="btn btn-outline-primary rounded-5" type="submit" value="Delete">
+                                                        <button type="submit" value="Delete"> <i class="fa-solid fa-trash-can" style="color:brown"></i></button>
                                                     </form>
                                                 </td>
                                                 <td>
                                                     <form action="edit.php" method="get">
                                                         <input type="hidden" name="index" value="<?= $index ?>">
-                                                        <input type="submit" value="Edit">
+                                                        <button type="submit" value="Edit"> <i class="fa-solid fa-pen-to-square"></i></button>
                                                     </form>
                                                 </td>
                                             </tr>

@@ -1,7 +1,13 @@
 <?php include('web/header.php'); ?>
-
+<?php
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+?>
 <?php
 $images = file_exists('admin/data.json') ? json_decode(file_get_contents('admin/data.json'), true) : [];
+$latestPosts = array_slice(array_reverse($images), 0, 4);
+?>
 ?>
 
 <!DOCTYPE html>
@@ -446,7 +452,7 @@ $images = file_exists('admin/data.json') ? json_decode(file_get_contents('admin/
             <?php if (empty($images)): ?>
                <p>No photos found.</p>
             <?php else: ?>
-               <?php foreach ($images as $img): ?>
+               <?php foreach ($latestPosts as $img): ?>
                   <div class="col-xl-3 col-md-6">
                      <div class="event-entry shadow-sm overflow-hidden rounded-4">
                         <div class="event-thumb">

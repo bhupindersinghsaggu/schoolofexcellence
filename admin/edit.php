@@ -80,65 +80,34 @@ $item = $data[$index];
                     <section class="dashboard-sec mt-5 ">
                         <h4>Edit Photo Gallery</h4>
                         <form action="update.php" method="post">
-                            <div class="col-lg-6 form-group mt-20">
-                                <input class="form-control" type="hidden" name="index" placeholder="Title" value="<?= $index ?>">
-                            </div>
-                            <div class="col-lg-6 form-group mt-20">
-                                <input class="form-control" type="text" name="title" placeholder="Title" value="<?= htmlspecialchars($item['title']) ?>" required>
-                            </div>
-                            <div class="col-lg-6 form-group mt-20">
-                                <input class="form-control" type="text" name="name" placeholder="URL" value="<?= htmlspecialchars($item['name']) ?>" required>
-                            </div>
-                            <div class="col-lg-6 form-group mt-20">
-                                <input class="form-control" type="date" name="date" placeholder="Date" value="<?= htmlspecialchars($item['date']) ?>" required>
-                            </div>
-                            <div class="col-lg-6 form-group mt-20">
-                                <input class="form-control" type="text" name="text" placeholder="Description" value="<?= htmlspecialchars($item['text']) ?>" required>
-                            </div>
-                            <div class="col-lg-6 form-group mt-20">
-                                <input  type="submit" value="Update" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 form-group mt-20">
+                                        <input class="form-control" type="hidden" name="index" placeholder="Title" value="<?= $index ?>">
+                                    </div>
+                                    <div class="col-lg-6 form-group mt-20">
+                                        <input class="form-control" type="text" name="title" placeholder="Title" value="<?= htmlspecialchars($item['title']) ?>" required>
+                                    </div>
+                                    <div class="col-lg-6 form-group mt-20">
+                                        <input class="form-control" type="text" name="name" placeholder="URL" value="<?= htmlspecialchars($item['name']) ?>" required>
+                                    </div>
+                                    <div class="col-lg-6 form-group mt-20">
+                                        <input class="form-control" type="date" name="date" placeholder="Date" value="<?= htmlspecialchars($item['date']) ?>" required>
+                                    </div>
+                                    <div class="col-lg-6 form-group mt-20">
+                                        <input class="form-control" type="text" name="text" placeholder="Description" value="<?= htmlspecialchars($item['text']) ?>" required>
+                                    </div>
+                                    <div class="col-lg-6 form-group mt-20">
+                                        <input type="submit" value="Update" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">
+                                    </div>
+                                </div>
                             </div>
                         </form>
-                        <hr>
-                        <!-- <h2>Gallery</h2>
-                        <table class="table table-responsive">
-                            <tr>
-                                <th>Photo</th>
-                                <th>title</th>
-                                <th>URL</th>
-                                <th>Date</th>
-                                <th>text</th>
-                                <th>Delete</th>
-                            </tr>
-                            <?php foreach ($images as $index => $img): ?>
-                                <tr>
-                                    <td><img src="uploads/<?= htmlspecialchars($img['filename']) ?>"></td>
-                                    <td><?= htmlspecialchars($img['title']) ?></td>
-                                    <td><?= htmlspecialchars($img['name']) ?></td>
-                                    <td><?= htmlspecialchars($img['date']) ?></td>
-                                    <td><?= htmlspecialchars($img['text']) ?></td>
-                                    <td>
-                                        <form action="delete.php" method="post" onsubmit="return confirm('Delete this image?');">
-                                            <input type="hidden" name="index" value="<?= $index ?>">
-                                            <input type="submit" value="Delete">
-                                        </form>
-                                    </td>
-                                    <td>
-                                        <form action="edit.php" method="get">
-                                            <input type="hidden" name="index" value="<?= $index ?>">
-                                            <input type="submit" value="Edit">
-                                        </form>
-                                    </td>
-                                </tr>
-                            <?php endforeach; ?>
-                        </table> -->
                     </section>
                 </div>
             </div>
         </div>
     </div>
-
-
     <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
     <script src="../js/bootstrap.bundle.min.js"></script>
     <script src="../js/swiper-bundle.min.js"></script>
