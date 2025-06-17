@@ -6,12 +6,6 @@ error_reporting(E_ALL);
 ?>
 
 
-<!DOCTYPE html>
-<html>
-<head>
-   <title>Photo Gallery</title>
-</head>
-
 <body>
    <!-- Banner Section Start -->
    <div class="about-sec sec-padding school-theme-color1">

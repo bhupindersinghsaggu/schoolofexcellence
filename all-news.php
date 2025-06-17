@@ -8,16 +8,18 @@ $images = file_exists('admin/photo-gallery/data.json') ? json_decode(file_get_co
 
 ?>
 
-<!DOCTYPE html>
-<html>
-
-<head>
-    <title>All Gallery Posts</title>
-    
-</head>
-
-<body>
-    <section class="blog-sec bg-shade sec-padding">
+<section class="promo-sec" style="background: url('images/promo-bg.jpg')no-repeat center center / cover;">
+    <img src="images/promo-left.png" alt="" class="anim-img">
+    <img src="images/promo-right.png" alt="" class="anim-img anim-right">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <h1 class="display-2 text-white">Photo Gallery</h1>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="blog-sec bg-shade sec-padding">
     <div class="container">
         <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
             <div class="sec-intro">
@@ -53,13 +55,8 @@ $images = file_exists('admin/photo-gallery/data.json') ? json_decode(file_get_co
                     </div>
                 <?php endforeach; ?>
             <?php endif; ?>
-             <p><a href="index.php">← Back to Home</a></p>
+            <p><a href="index.php">← Back to Home</a></p>
         </div>
     </div>
 </section>
-
-   
-    <?php include('web/footer.php'); ?>
-</body>
-</html>
-
+<?php include('web/footer.php'); ?>
