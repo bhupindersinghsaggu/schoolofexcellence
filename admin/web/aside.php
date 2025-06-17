@@ -14,7 +14,7 @@
         <nav class="dashboard-nav">
             <ul class="list-unstyled nav">
                 <!-- <li><a class="nav-link" href="instructor-settings.html"><i class="feather-icon icon-settings"></i><span>Settings</span></a></li> -->
-                <li><a class="nav-link" href="index.html"><i class="feather-icon icon-log-out"></i><span>Logout</span></a></li>
+                <li><a class="nav-link" href="logout.php"><i class="feather-icon icon-log-out"></i><span>Logout</span></a></li>
             </ul>
         </nav>
     </div><!--  Widget End -->
