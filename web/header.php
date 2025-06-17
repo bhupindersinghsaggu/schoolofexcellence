@@ -2,35 +2,9 @@
 <html lang="zxx">
 
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description"
-        content="An ideal tempalte for online education, e-Learning, Course School, Online School, Kindergarten, Classic LMS, University, Language Academy, Coaching, Online Course, Single Course, and Course marketplace.">
-    <meta name="keywords"
-        content="bootstrap 5, online course, education, creative, gulp, business, minimal, modern, course, one page, responsive, saas, e-Learning, seo, startup, html5, site template">
-    <meta name="author" content="theme-village">
-    <title>School of Excellence -Sector 18, Huda, Panipat</title>
-    <link rel="apple-touch-icon" href="images/favicon.png">
-    <link rel="shortcut icon" href="images/favicon.ico">
-    <link rel="stylesheet" href="css/feather.css">
-    <link rel="stylesheet" href="css/nice-select2.css">
-    <link href="css/glightbox.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
-    <!-- Style css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- Custom css -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+   <?php include ('./web/css.php')?>
 </head>
-
 <body>
-
     <!-- Preloader -->
     <!-- <div id="preloader">
       <div class="preloader">
@@ -38,7 +12,6 @@
          <span></span>
       </div>
    </div> -->
-
     <!-- Header Start -->
     <header class="header header-2">
         <div class="sticky-height"></div>
@@ -175,7 +148,7 @@
         <div class="header-nav-wrapper header-sticky">
             <nav class="navbar navbar-expand-xl">
                 <div class="container navbar-line">
-                    <a class="navbar-brand" href="./index.html"><img src="images/logo.png" alt="Logo"></a>
+                    <a class="navbar-brand" href="./index.php"><img src="images/logo.png" alt="Logo"></a>
                     <div
                         class="header-actions position-relative order-xl-3  d-flex align-items-center justify-content-between">
 
@@ -254,7 +227,7 @@
                     </button>
                     <div class="offcanvas bg-info offcanvas-start offcanvas-nav">
                         <div class="offcanvas-header">
-                            <a href="./index.html" class="text-inverse"><img src="images/logo.png" alt="Logo"></a>
+                            <a href="./index.php" class="text-inverse"><img src="images/logo.png" alt="Logo"></a>
                             <button type="button" class="btn-close bg-primary" data-bs-dismiss="offcanvas"
                                 aria-label="Close"></button>
                         </div>
@@ -274,111 +247,6 @@
                                         <li><a class="dropdown-item" href="lesson.html">Message From Chairman</a></li>
                                     </ul>
                                 </li>
-                                <!-- <li class="nav-item dropdown">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                              aria-expanded="false">Dashboard</a>
-                           <ul class="dropdown-menu">
-                              <li class="dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle"
-                                    href="#">Instructor Dashboard</a>
-                                 <ul class="dropdown-menu">
-                                    <li class="dropdown-header">Instructor</li>
-                                    <li>
-                                       <a class="dropdown-item" href="instructor-dashboard.html">Dashbaord</a>
-                                       <a class="dropdown-item" href="instructor-profile.html">Profile</a>
-                                       <a class="dropdown-item" href="instructor-enrolled-courses.html">Enrolled
-                                          Courses</a>
-                                       <a class="dropdown-item" href="instructor-wishlist.html">Wishlist</a>
-                                       <a class="dropdown-item" href="instructor-reviews.html">Reviews</a>
-                                       <a class="dropdown-item" href="instructor-my-quiz-attempts.html">My Quiz
-                                          Attempts</a>
-                                       <a class="dropdown-item" href="instructor-order-history.html">Order History</a>
-                                       <a class="dropdown-item" href="instructor-courses.html">My Course</a>
-                                       <a class="dropdown-item" href="instructor-announcements.html">Announcements</a>
-                                       <a class="dropdown-item" href="instructor-quiz-attemps.html">Quiz Attempts</a>
-                                       <a class="dropdown-item" href="instructor-assignments.html">Assignments</a>
-                                       <a class="dropdown-item" href="instructor-settings.html">Settings</a>
-                                    </li>
-                                 </ul>
-                              </li>
-                              <li class="dropdown-submenu dropend"><a class="dropdown-item dropdown-toggle"
-                                    href="#">Student Dashboard</a>
-                                 <ul class="dropdown-menu">
-                                    <li class="dropdown-header">Student</li>
-                                    <li>
-                                       <a class="dropdown-item" href="student-dashboard.html">Dashbaord</a>
-                                       <a class="dropdown-item" href="student-profile.html">Profile</a>
-                                       <a class="dropdown-item" href="student-enrolled-courses.html">Enrolled
-                                          Courses</a>
-                                       <a class="dropdown-item" href="student-wishlist.html">Wishlist</a>
-                                       <a class="dropdown-item" href="student-reviews.html">Reviews</a>
-                                       <a class="dropdown-item" href="student-order-history.html">Order History</a>
-                                       <a class="dropdown-item" href="student-my-quiz-attempts.html">My Quiz
-                                          Attempts</a>
-                                       <a class="dropdown-item" href="student-settings.html">Settings</a>
-                                    </li>
-                                 </ul>
-                              </li>
-                           </ul>
-                        </li> -->
-                                <!-- <li class="nav-item dropdown dropdown-fullwidth">
-                           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                              aria-expanded="false">Pages</a>
-                           <div class="dropdown-menu">
-                              <div class="row row-cols-xl-4 row-cols-1">
-                                 <div class="col">
-                                    <div>
-                                       <div>
-                                          <div class="dropdown-header">Get Started</div>
-                                          <a class="dropdown-item" href="about.html">About Us</a>
-                                          <a class="dropdown-item" href="event-grid.html">Event Grid</a>
-                                          <a class="dropdown-item" href="event-list.html">Event List</a>
-                                          <a class="dropdown-item" href="event-sidebar.html">Event Sidebar</a>
-                                          <a class="dropdown-item" href="single-event.html">Event Details</a>
-                                          <a class="dropdown-item" href="pricing.html">Pricing Plan</a>
-                                          <a class="dropdown-item" href="admission-guide.html">Admision Guide</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col">
-                                    <div>
-                                       <div class="dropdown-header">Get Started</div>
-                                       <a class="dropdown-item" href="contact.html">Contact Us</a>
-                                       <a class="dropdown-item" href="instructors.html">Instructors</a>
-                                       <a class="dropdown-item" href="profile.html">Profile</a>
-                                       <a class="dropdown-item" href="become-instructor.html">Become a instructor</a>
-                                       <a class="dropdown-item" href="faq.html">FAQ</a>
-                                       <a class="dropdown-item" href="404.html">404 error</a>
-                                       <a class="dropdown-item" href="comming-soon.html">Maintenance</a>
-                                    </div>
-                                 </div>
-                                 <div class="col">
-                                    <div class="mt-3 mt-lg-0">
-                                       <div>
-                                          <div class="dropdown-header">Shop Pages</div>
-                                          <a class="dropdown-item" href="shop.html">Shop</a>
-                                          <a class="dropdown-item" href="single-product.html">Single Product</a>
-                                          <a class="dropdown-item" href="cart.html">Cart</a>
-                                          <a class="dropdown-item" href="checkout.html">Checkout</a>
-                                          <a class="dropdown-item" href="my-account.html">My Account</a>
-                                          <a class="dropdown-item" href="login.html">Login</a>
-                                          <a class="dropdown-item" href="signup.html">Register</a>
-                                       </div>
-                                    </div>
-                                 </div>
-                                 <div class="col">
-                                    <div class="mt-3 mt-lg-0">
-                                       <a href="login.html" class="banner-ads d-flex justify-content-between">
-                                          <div class="b-content">
-                                             <h5>Online Learning Platform</h5>
-                                             <span class="badge-lg bg-primary text-small mt-2">All Courses</span>
-                                          </div>
-                                          <img src="images/banner-ads.png" alt="" class="img-fluid banner-img">
-                                       </a>
-                                    </div>
-                                 </div>
-                              </div>
-                           </div>
-                        </li> -->
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">Infrastructure</a>
@@ -416,6 +284,5 @@
                 </div>
             </nav>
         </div>
-
     </header>
     <!-- Header End -->

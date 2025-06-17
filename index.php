@@ -4,57 +4,15 @@ ini_set('display_errors', 1);
 ini_set('display_startup_errors', 1);
 error_reporting(E_ALL);
 ?>
-<?php
-$images = file_exists('admin/data.json') ? json_decode(file_get_contents('admin/data.json'), true) : [];
-$latestPosts = array_slice(array_reverse($images), 0, 4);
-?>
-?>
+
 
 <!DOCTYPE html>
 <html>
-
 <head>
    <title>Photo Gallery</title>
-   <style>
-      body {
-         font-family: Arial, sans-serif;
-      }
-
-      .gallery {
-         display: flex;
-         flex-wrap: wrap;
-         gap: 20px;
-      }
-
-      .item {
-         width: 200px;
-         border: 1px solid #ccc;
-         padding: 10px;
-      }
-
-      .item img {
-         width: 100%;
-         height: auto;
-         display: block;
-      }
-
-      .info {
-         margin-top: 10px;
-         font-size: 14px;
-      }
-
-      .info a {
-         color: #007BFF;
-         text-decoration: none;
-         word-break: break-word;
-      }
-   </style>
 </head>
 
 <body>
-
-
-
    <!-- Banner Section Start -->
    <div class="about-sec sec-padding school-theme-color1">
       <div class="container">
@@ -439,110 +397,9 @@ $latestPosts = array_slice(array_reverse($images), 0, 4);
       </div>
    </section>
 
-   <section class="blog-sec bg-shade sec-padding">
-      <div class="container">
-         <div class="d-md-flex justify-content-between align-items-top mb-5 mb-lg-0">
-            <div class="sec-intro">
-               <span class="badge-lg bg-primary rounded-5">Blog &amp; News</span>
-               <h2 class="sec-title mb-0">Latest <span class="color">Activities</span></h2>
-            </div>
-            <!-- <a href="blog.html" class="btn btn-primary align-self-start shadow rounded-5">Read all Blog</a> -->
-         </div>
-         <div class="row">
-            <?php if (empty($images)): ?>
-               <p>No photos found.</p>
-            <?php else: ?>
-               <?php foreach ($latestPosts as $img): ?>
-                  <div class="col-xl-3 col-md-6">
-                     <div class="event-entry shadow-sm overflow-hidden rounded-4">
-                        <div class="event-thumb">
-                          <img class="card-img-top" src="admin/uploads/<?= htmlspecialchars($img['filename']) ?>" alt="Image">
-                        </div>
-                        <div class="entry-content p-4">
-                           <div class="event-meta d-flex justify-content-between mb-2">
-                              <span><i class="feather-icon icon-calendar"></i> <?= htmlspecialchars($img['date']) ?></span>
-                              <!-- <span class="event-location"><i class="feather-icon icon-map-pin"></i>253 Avenue, USA</span> -->
-                           </div>
-                           <h3 class="display-5">
-                               <a href="<?= htmlspecialchars($img['name']) ?>" target="_blank">
-                                    <?= htmlspecialchars($img['title']) ?> </a>
-                           </h3>
-                           <p class="f-14"><?= htmlspecialchars($img['text']) ?></p>
-                           <div class="event-footer d-flex justify-content-start align-items-center">
-                              <a class="btn btn-outline-primary rounded-5" href="<?= htmlspecialchars($img['name']) ?>" target="_blank">
-                                   View More <i class="feather-icon icon-arrow-right"></i></a>
-                           </div>
-                        </div>
-                     </div>
-                  </div>
-               <?php endforeach; ?>
-            <?php endif; ?>
-         </div>
-      </div>
-   </section>
+   <?php include('web/latest-news.php') ?>
+   <?php include('web/video-gallery.php') ?>
    <!-- Pricing Section End -->
-   <section class="contact-sec sec-padding position-relative overflow-hidden">
-      <div class="offcanvas-overly"></div>
-      <div class="contact-bg position-absolute" style="background-image: url('images/contact-bg.jpg')"></div>
-      <img src="images/icons/book-xxl.png" alt="Book" class="img-fluid slideright contact-img">
-      <div class="container">
-         <div class="row align-items-center">
-            <div class="col-lg-7 col-md-7 order-md-1 order-2">
-               <div class="contact-form position-relative z-index bg-secondary p-lg-5 p-4 rounded-3">
-                  <form id="contact-form" class="row" method="POST" action="mail.php">
-                     <div class="col-lg-6 form-group">
-                        <i class="feather-icon icon-user"></i>
-                        <input class="form-control" name="name" type="text" placeholder="Name" required="">
-                        <div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
-                     </div>
-                     <div class="col-lg-6 form-group">
-                        <i class="feather-icon icon-mail"></i>
-                        <input class="form-control" name="email" type="email" placeholder="Email Address" required="">
-                     </div>
-                     <div class="col-lg-6 form-group">
-                        <i class="feather-icon icon-pocket"></i>
-                        <input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
-                     </div>
-                     <div class="col-lg-6 form-group">
-                        <i class="feather-icon icon-phone-call"></i>
-                        <input class="form-control" type="text" name="phone" placeholder="Phone Number" required="">
-                     </div>
-                     <div class="col-lg-12 form-group">
-                        <textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
-                     </div>
-                     <div class="form-group mt-4">
-                        <button type="submit" class="btn btn-dark rounded-5">Submit Now</button>
-                     </div>
-                  </form>
-                  <!-- Contact Form Start-->
-                  <div class="open-popup rounded-3">
-                     <div class="icon">
-                        <i class="feather-icon icon-check"></i>
-                     </div>
-                     <h2>Success</h2>
-                     <p>Thank You! Your message has been sent.</p>
-                     <div class="close_popup_btn">
-                        <button class="btn btn-primary rounded-5">Okey</button>
-                     </div>
-                  </div>
-                  <!-- Contact Form Message End -->
-               </div>
-               <!-- Contact Form End -->
-            </div>
-            <div class="col-lg-5 col-md-5 order-md-2 order-1">
-               <div class="contact-txt">
-                  <span class="badge-lg rounded-5 bg-primary">Get in Touch</span>
-                  <h2 class="sec-title text-info">If You Have Any Query <span class="color">Contact Us</span></h2>
-                  <p>
-                     Being involved in education dedicatedly is a good meditation for years. A good education for you and me,
-                     a better world it will be.
-                  </p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-
 
    <!-- Footer Section Start -->
    <?php include('web/footer.php') ?>
