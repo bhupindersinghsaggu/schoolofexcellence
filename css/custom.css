@@ -4,6 +4,14 @@
     line-height: 65px;
 }
 
+.date-table{
+    width: 100%;
+}
+
+
+.mx1-100{
+    max-width: 100%;
+}
 .star-icon {
 
     margin-right: 5px;
