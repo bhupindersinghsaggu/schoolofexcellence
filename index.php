@@ -391,7 +391,7 @@ error_reporting(E_ALL);
       </div>
    </section>
 
-   <?php include './admin/photo-admin/db.php'; 
+   <?php include './admin/photo-admin/db.php';
    $result = $conn->query("SELECT * FROM photos ORDER BY upload_date DESC LIMIT 3");
    ?>
    <section class="blog-sec bg-shade sec-padding">
@@ -404,7 +404,7 @@ error_reporting(E_ALL);
             <a href="all-news.php" class="btn btn-primary align-self-start shadow rounded-5">View All</a>
          </div>
          <div class="row">
-             <?php while($row = $result->fetch_assoc()): ?>
+            <?php while ($row = $result->fetch_assoc()): ?>
                <div class="col-xl-4 col-md-6">
                   <div class="event-entry shadow-sm overflow-hidden rounded-4">
                      <div class="event-thumb">
@@ -434,5 +434,3 @@ error_reporting(E_ALL);
    <!-- Footer Section Start -->
    <?php include('web/footer.php') ?>
    <?php include('web/admission-open.php') ?>
-
-   
