@@ -37,10 +37,10 @@
                         <span class="d-none d-lg-block"><img class="me-2" src="images/icons/location.png" alt="location">Sector-18, Huda, Panipat</span>
                         <div class="social-share-alt d-flex align-items-center justify-content-end">
                             <span class="d-none d-sm-block">Follow Us:</span>
-                            <span><a href="#"><img src="images/icons/fb-w.png" alt="Facebook"></a></span>
+                            <span><a href="https://www.facebook.com/schoolofexcellencepanipat"><img src="images/icons/fb-w.png" alt="Facebook"></a></span>
                             <!-- <span><a href="#"><img src="images/icons/tw-w.png" alt="twitter"></a></span>
                             <span><a href="#"><img src="images/icons/linkedin-w.png" alt="Linkedin"></a></span> -->
-                            <span><a href="#"><img src="images/icons/ins-w.png" alt="Instagram"></a></span>
+                            <span><a href="https://www.instagram.com/schoolofexcellencepanipat2025/"><img src="images/icons/ins-w.png" alt="Instagram"></a></span>
                         </div>
                     </div>
                 </div>
@@ -220,7 +220,7 @@
                                 </ul>
                             </nav>
                         </div>
-                        <a href="./signup.html" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">ERP Login</a>
+                        <a href="http://curtina.in/soe" class="btn d-none d-lg-block btn-primary shadow border-0 rounded-2">ERP Login</a>
                     </div>
                     <button class="navbar-toggler offcanvas-nav-btn" type="button">
                         <span class="feather-icon icon-menu"></span>
@@ -241,10 +241,10 @@
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                         aria-expanded="false">About</a>
                                     <ul class="dropdown-menu">
-                                        <li><a class="dropdown-item" href="courses.html">History</a></li>
-                                        <li><a class="dropdown-item" href="courses-list.html">Vision & Mission</a></li>
-                                        <li><a class="dropdown-item" href="lesson.html">Message From Principal</a></li>
-                                        <li><a class="dropdown-item" href="lesson.html">Message From Chairman</a></li>
+                                        <li><a class="dropdown-item" href="#">History</a></li>
+                                        <li><a class="dropdown-item" href="#">Vision & Mission</a></li>
+                                        <li><a class="dropdown-item" href="#">Message From Principal</a></li>
+                                        <li><a class="dropdown-item" href="#">Message From Chairman</a></li>
                                     </ul>
                                 </li>
                                 <li class="nav-item dropdown">
@@ -276,7 +276,7 @@
                                     </ul>
                                 </li>
                                 <li class="nav-item">
-                                    <a href="contact.html" class="nav-link">Contact</a>
+                                    <a href="#" class="nav-link">Contact</a>
                                 </li>
                             </ul>
                         </div>

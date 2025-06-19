@@ -37,26 +37,15 @@
 									<button type="submit" class="btn btn-primary-orange  mt-4" data-bs-target="#exampleModalToggle2">Submit</button>
 								</div>
 							</form>
-							<!-- Contact Form Start-->
-							<div class="open-popup rounded-3" id="#exampleModalToggle2">
-								<div class="icon">
-									<i class="feather-icon icon-check"></i>
-								</div>
-								<h2>Success</h2>
-								<p>Thank You! Your message has been sent.</p>
-								<div class="close_popup_btn">
-									<button class="btn btn-primary rounded-5">Okey</button>
-								</div>
-							</div>
-							<!-- Contact Form Message End
+							
 						</div><!-- Contact Form End -->
 						</div>
 					</div>
 				</div>
-				<div class="modal-footer">
+				<!-- <div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-primary">Save changes</button>
-				</div>
+				</div> -->
 			</div>
 		</div>
 	</div>

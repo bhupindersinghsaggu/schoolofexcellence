@@ -221,3 +221,12 @@
     -o-transition: all .4s ease-in-out;
     transition: all .4s ease-in-out;
 }
+.txt-white{
+    color:#fff;
+}
+
+.footer-icon{
+    border: 2px white solid;
+    padding: 10px;
+    
+}
