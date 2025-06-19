@@ -428,7 +428,7 @@ error_reporting(E_ALL);
          </div>
       </div>
    </section>
-   <?php include('web/video-gallery.php') ?>
+
    <!-- Pricing Section End -->
 
    <!-- Footer Section Start -->
