@@ -61,7 +61,7 @@
 			const phone = document.getElementById("phone").value;
 			const message = document.getElementById("message").value;
 
-			const text = `Hello, my name is': ${name}
+			const text = `Hello, my name is: ${name}
           Phone: ${phone}
           Message: ${message}`;
 
