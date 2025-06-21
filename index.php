@@ -48,15 +48,14 @@ error_reporting(E_ALL);
       <div class="marquee" style="padding: 14px;">
          <marquee scrollamount="5" loop="2">
             <a href="#" data-toggle="modal" data-target="#exampleModal">
-               <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
-               <span class="adm-text">Admission Open for Session 2025-25 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admission Open for Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admission Open for Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admission Open for Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admission Open for Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admission Open for Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
+               <span class="adm-text">Admission Open for Session 2025-26 <i class="fa-solid fa-star star-icon"></i> </span>
             </a>
          </marquee>
-
       </div>
    </div>
 
@@ -376,7 +375,7 @@ error_reporting(E_ALL);
             <div class="col-lg-6">
                <div class="apply-card text-info rounded-3 bg-secondary">
                   <h3>Preparatory Stage</h3>
-                  <h2 class="white-color-icon ">6+ Years</h2>
+                  <h2 class="white-color-icon ">8+ Years</h2>
                   <div class="card-body  border rounded-2 mb-20">
                      <ul class="school-class-list">
                         <li> <i class="fa-solid fa-paper-plane white-color-icon mrg20 "></i> Class III</li>
