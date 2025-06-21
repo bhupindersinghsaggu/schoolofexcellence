@@ -12,62 +12,44 @@
 				<div class="row">
 					<div class="col-lg-12 mx-auto">
 						<div class="contact-form">
-							<form id="whatsappForm" class="row">
-								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-user"></i>
-									<input class="form-control" name="name" type="text" placeholder="Name" id="name" required="">
-									<div data-lastpass-icon-root="" style="position: relative !important; height: 0px !important; width: 0px !important; float: left !important;"></div>
-								</div>
-								<!-- <div class="col-lg-12 form-group">
-								<i class="feather-icon icon-mail"></i>
-								<input class="form-control" name="email" type="email" placeholder="Email Address" required="">
-							</div> -->
-								<!-- <div class="col-lg-6 form-group">
-								<i class="feather-icon icon-pocket"></i>
-								<input class="form-control" type="text" name="subject" placeholder="Your Subject" required="">
-							</div> -->
-								<div class="col-lg-12 form-group">
-									<i class="feather-icon icon-phone-call"></i>
-									<input class="form-control" type="text" name="phone" id="phone" placeholder="Phone Number" required="">
-								</div>
-								<div class="col-lg-12 form-group">
-									<textarea class="form-control" name="message" id="message" rows="6" placeholder="Enter your message" required=""></textarea>
-								</div>
-								<div class="col-lg-12 text-center">
-									<button type="submit" class="btn btn-primary-orange  mt-4" data-bs-target="#exampleModalToggle2">Submit</button>
-								</div>
+							<form method="POST" action="send_to_whatsapp.php">
+								<input type="text" name="name" placeholder="Your Name" required>
+								<input type="text" name="message" placeholder="Your Message" required>
+								<button type="submit">Send on WhatsApp</button>
 							</form>
-							
+
 						</div><!-- Contact Form End -->
-						</div>
 					</div>
 				</div>
-				<!-- <div class="modal-footer">
+			</div>
+			<!-- <div class="modal-footer">
 					<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
 					<button type="button" class="btn btn-primary">Save changes</button>
 				</div> -->
-			</div>
 		</div>
 	</div>
+</div>
 
 
-	<script>
-		document.getElementById('whatsappForm').addEventListener('submit', function(e) {
-			e.preventDefault();
+<?php
+// Get form data
+$name = isset($_POST['name']) ? $_POST['name'] : '';
+$message = isset($_POST['message']) ? $_POST['message'] : '';
 
-			// Replace with your WhatsApp number
-			const phoneNumber = "918950364489";
-			const name = document.getElementById("name").value;
-			const phone = document.getElementById("phone").value;
-			const message = document.getElementById("message").value;
+// Get the referring page URL (i.e., where the form was submitted from)
+$page_url = isset($_SERVER['HTTP_REFERER']) ? $_SERVER['HTTP_REFERER'] : 'URL not available';
 
-			const text = `Hello, my name is: ${name}
-          Phone: ${phone}
-          Message: ${message}`;
+// WhatsApp number (with country code, without +)
+$whatsapp_number = "918950364489"; // Replace with your number
 
+// Create message
+$whatsapp_message = "Name: $name\nMessage: $message\nPage URL: $page_url";
+$encoded_message = urlencode($whatsapp_message);
 
-			const url = `https://wa.me/${phoneNumber}?text=${text}`;
+// Create WhatsApp link
+$whatsapp_link = "https://wa.me/$whatsapp_number?text=$encoded_message";
 
-			window.open(url, 'index.php');
-		});
-	</script>
+// Redirect to WhatsApp
+header("Location: $whatsapp_link");
+exit;
+?>
